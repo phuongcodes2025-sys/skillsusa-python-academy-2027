@@ -42,7 +42,13 @@ Python is popular because it looks very close to English:
 print("Hello")
 ```
 
-Even without experience, you can probably guess it prints `Hello`.
+Even without experience, you can probably guess it prints `Hello`. Read it like English: *Print Hello.*
+
+```python
+print("Welcome to Dallas College")
+```
+
+Read it as: *Show "Welcome to Dallas College".* Python was designed to be readable, which is why it is a great first language before moving on to Java or C++.
 
 ## Think Like a Computer
 
@@ -57,6 +63,34 @@ Put another bread slice on top
 ```
 
 Computers only understand very precise instructions.
+
+### A computer is not smart
+
+A computer is a machine that follows instructions. It has no common sense.
+
+If I tell you *"Put milk in the refrigerator,"* you automatically understand:
+
+```text
+Open refrigerator
+Place milk inside
+Close refrigerator
+```
+
+A human fills in the missing steps. A computer does not. It needs every single step. This is why programmers exist: programmers write instructions, and computers execute them.
+
+### Programming is problem solving
+
+```text
+Thinking
+↓
+Planning
+↓
+Writing Instructions
+↓
+Testing
+```
+
+Thinking comes first. Many people believe programming means typing code. In reality, programming means problem solving, and the code is the smallest part.
 
 ## The 3 Things Every Program Does
 
@@ -84,6 +118,26 @@ Output
 
 This is the same structure as the Calorie Calculator project in this curriculum.
 
+### Example: DoorDash
+
+- **Input:** Phuong orders Pho.
+- **Process:** The restaurant cooks the food and a driver delivers it.
+- **Output:** Pho arrives at your door.
+
+### Example: TikTok
+
+- **Input:** You tap the app.
+- **Process:** It loads your account, videos, and recommendations.
+- **Output:** The feed is displayed.
+
+### Example: a Python grade program
+
+- **Input:** A student enters a score.
+- **Process:** The computer calculates the average.
+- **Output:** The grade is displayed.
+
+All software follows this model.
+
 ## Your First Python Program
 
 Type:
@@ -103,6 +157,27 @@ Congratulations. You just told the computer: *display this text.*
 ## Understanding `print()`
 
 Think of `print` as "show this on the screen."
+
+Imagine a magician. The audience cannot see what is inside the box until the magician opens it. That is what `print()` does.
+
+```python
+name = "Phuong"
+```
+
+The computer remembers it, but the screen shows nothing.
+
+```python
+name = "Phuong"
+print(name)
+```
+
+Output:
+
+```text
+Phuong
+```
+
+The hidden information becomes visible.
 
 ```python
 print("Dallas College")
@@ -139,9 +214,41 @@ age = 30
 
 Box label → `age`, inside box → `30`.
 
+```text
++--------------+
+| name         |
++--------------+
+| Phuong       |
++--------------+
+```
+
+### Read code like English
+
+Do not read `age = 30` as "age equals thirty." Read it as: **put 30 into the box called `age`.** This is one of the biggest mindset shifts for beginners.
+
+### Mental exercise
+
+```python
+city = "Dallas"
+```
+
+- What is the box called? `city`
+- What is inside? `Dallas`
+
+```python
+gpa = 4.0
+```
+
+- What is the box called? `gpa`
+- What is inside? `4.0`
+
 ### Why are variables important?
 
-Netflix has hundreds of millions of customers. It cannot manually remember each name, email, and subscription. Variables store information.
+Netflix has hundreds of millions of customers. It cannot manually remember each name, email, and subscription. Variables store information such as username, password, subscription, and watch history.
+
+```python
+username = "phuong123"
+```
 
 ## Data Types
 
@@ -189,6 +296,16 @@ Code
 ```
 
 Always ask *"What problem am I solving?"* before asking *"What code should I write?"*
+
+### The Harvard Question
+
+Do not ask: *How do I write code?* Ask:
+
+- What information am I storing?
+- What problem am I solving?
+- What result do I want?
+
+Then the code becomes obvious.
 
 ## Mini Challenge
 
@@ -241,6 +358,30 @@ Portfolio Project
 Presentation
 ↓
 Mock Interview
+```
+
+## End-of-Lesson Reflection
+
+If you understand these 5 ideas, you have mastered Module 1:
+
+- [x] Computers follow instructions
+- [x] Programming is problem solving
+- [x] Every program uses Input → Process → Output
+- [x] Variables are labeled boxes
+- [x] `print()` displays information
+
+Next, Module 2 builds on these ideas:
+
+```text
+Variables
+↓
+input()
+↓
+User Interaction
+↓
+Math Operations
+↓
+Calorie Calculator
 ```
 
 ## Homework
