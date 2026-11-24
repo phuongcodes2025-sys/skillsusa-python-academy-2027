@@ -10,7 +10,7 @@ Each module follows the same rhythm: **lesson → quiz → coding challenge → 
 
 | Module | What you'll learn | What you'll build |
 | --- | --- | --- |
-| 1. Getting started | Install and run Python; use output and comments | A welcome program |
+| 1. [Getting started](modules/01-python-basics/README.md) | Install and run Python; use output and comments | A welcome program |
 | 2. Variables and input | Store values, read input, and convert types | A favorite-food questionnaire |
 | 3. Math and formatting | Use arithmetic and format numeric results | An order total calculator |
 | 4. Calorie Calculator | Combine input, arithmetic, and formatted output | A meal summary with activity estimates based on rates supplied in the exercise |
